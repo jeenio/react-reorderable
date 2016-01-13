@@ -473,7 +473,7 @@
   // Define for requirejs
   if (root && typeof root.define === 'function' && root.define.amd) {
     define(['react'], function(React) {
-      return getReorderable(React);
+      return getReorderComponent(React);
     });
   }
 
